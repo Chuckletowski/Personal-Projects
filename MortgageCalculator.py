@@ -7,7 +7,6 @@
 #i = interest rate (for an interest rate of 5%, i = 0.05)
 #n = number of payments
 
-
 loanAmount = float(input('What is your desired loan amount? $'))
 interestRate = float(input('What is the current annual interest rate? %')) * .01 / 12
 numberYears = float(input('How many years do you plan to pay the loan? ')) * 12
