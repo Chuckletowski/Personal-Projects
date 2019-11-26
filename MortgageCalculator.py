@@ -1,6 +1,5 @@
-#Have the user enter the cost of the loan, the interest rate, and the number of years for the loan
-#and calculate monthly payments with the following formula:
-#M = L[i(1+i)n] / [(1+i)n-1]
+#Have the user enter the cost of the loan, the interest rate, and the number of years for the loan and calculate monthly payments
+#with the following formula: M = L[i(1+i)n] / [(1+i)n-1]
 #Where:
 #M = monthly payment
 #L = Loan amount 
