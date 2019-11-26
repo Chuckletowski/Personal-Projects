@@ -1,2 +1,2 @@
 # Personal-Projects
-A work in progress using Python and SQL.
+Everyday is a work in progress.
