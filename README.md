@@ -1,2 +1,2 @@
 # Personal-Projects
-A work in progress through coding projects using Python and SQL.
+A work in progress using Python and SQL.
