@@ -32,7 +32,7 @@ place = input('Please give a place: ').lower()
 noun8 = input('Please give another noun: ').lower()
 verb7 = input('Please give another verb: ').lower()
 
-print('\n\n'f'''{manName} is a normal {occupation}.
+print(f'''\n\n{manName} is a normal {occupation}.
 Then, one day, a {noun1} explodes, causing a {noun2} to blow up, and a nearby {noun3} erupts into a {shape} of flames.
 {manName} realizes that he\'s being chased by the government, who\'s trying to {verb1} him.
 While on the run, he teams up with an incredibly attractive woman named {womanName}, who has an incredible {bodyPart1}.
