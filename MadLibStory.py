@@ -16,8 +16,8 @@ verb2 = input('Please give another verb: ').lower()
 noun4 = input('Please give another noun: ').lower()
 noun5 = input('Please give another noun: ').lower()
 fastfood = input('Please give a fastfood chain: ').capitalize()
-monument = input('Please give a coffee/tea shop: ').capitalize()
-verb3 = input('Please give a verb in past participle: ').lower()
+coffeeTea = input('Please give a coffee/tea shop: ').capitalize()
+verb3 = input('Please give another verb in past participle: ').lower()
 noun6 = input('Please give another noun: ').lower()
 noun7 = input('Please give another noun: ').lower()
 verb4 = input('Please give another verb: ').lower()
@@ -26,7 +26,7 @@ verb5 = input('Please give another verb: ').lower()
 adjective1 = input('Please give an adjective: ').lower()
 adjective2 = input('Please give another adjective: ').lower()
 emotion = input('Please give an emotion: ').lower()
-verb6 = input('Please give a verb ending in \'ing\': ').lower()
+verb6 = input('Please give another verb ending in \'ing\': ').lower()
 place = input('Please give a place: ').lower()
 noun8 = input('Please give another noun: ').lower()
 verb7 = input('Please give another verb: ').lower()
@@ -37,7 +37,7 @@ Then, one day, a {noun1} explodes, causing a {noun2} to blow up, and a nearby {n
 While on the run, he teams up with an incredibly attractive woman named {womanName}, who has an incredible {bodyPart1}.
 {womanName} may be from the streets, but she can {verb2} like nobody\'s business.
 The duo decide to turn the tables on their pursuers by blowing up a {noun4}, which triggers a chain reaction,
-causing the local {noun5}, {fastfood}, and {monument} to explode.
+causing the local {noun5}, {fastfood}, and {coffeeTea} to explode.
 Then, the bad guys\' helicopter gets {verb3} by a piece of {noun6} from when the {noun4} exploded,
 and the helicopter explodes and falls onto a {noun7}, causing it to {verb4},
 which shoots a fireball straight into the {bodyPart2} of the bad guys\' leader and {verb5} him.
