@@ -4,17 +4,21 @@
 #Ontario, New Brunswick, and Nova Scotia charge .13% Harmonized Sales Tax. All other provinces charge .06% Provincial Sales Tax +
 #.05% General Sales Tax. Tell the user the total with taxes for their order.
 
+gst = .0005
+hst = .0013
+pst = .0006
+
 totalAmount = float(input('How much is your total order cost? $'))
 country = input('What country are you from? ').upper()
 
 if country == 'CANADA':
     province = input('Which province are you from? ').upper()
     if province == 'ALBERTA':
-        totalAmount = (totalAmount * .0005) + totalAmount
+        totalAmount = (totalAmount * gst) + totalAmount
     elif province == 'ONTARIO' or province == 'NEW BRUNSWICK' or province == 'NOVA SCOTIA':
-        totalAmount = (totalAmount * .0013) + totalAmount
+        totalAmount = (totalAmount * hst) + totalAmount
     else:
-        totalAmount = ((totalAmount * .0006) + (totalAmount * .0005)) + totalAmount
+        totalAmount = ((totalAmount * pst) + (totalAmount * gst)) + totalAmount
     print('\n\nYour overall charge is $%.2f' %totalAmount)
 else:
     print('\n\nYour overall charge is $%.2f' %totalAmount)
