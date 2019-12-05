@@ -1,7 +1,7 @@
-#Write a program that allows a person to personalize a story. Take a page from a book or make up a story.
-#Ask the user to enter information you can replace in the story such as their name, a place, or insert adjectives or adverbs
-#into the story. Then display the personalized story to the user. For extra credit, make sure you correct anything they type in
-#with the incorrect case (e.g. if they type an adjective in uppercase you may want to display it in lowercase).
+# Write a program that allows a person to personalize a story. Take a page from a book or make up a story.
+# Ask the user to enter information you can replace in the story such as their name, a place, or insert adjectives or adverbs
+# into the story. Then display the personalized story to the user. For extra credit, make sure you correct anything they type in
+# with the incorrect case (e.g. if they type an adjective in uppercase you may want to display it in lowercase).
 
 manName = input('Please give a man\'s name: ').capitalize()
 occupation = input('Please give an occupation: ').lower()
