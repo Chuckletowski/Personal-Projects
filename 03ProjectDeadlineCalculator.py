@@ -4,10 +4,10 @@
 
 import datetime
 
-dueDate = input('When is the deadline for the project (mm/dd/yyyy)? ')
-dueDate = datetime.datetime.strptime(dueDate, '%m/%d/%Y').date()
-currentDate = datetime.date.today()
-remainingWeeks = ((dueDate - currentDate) / 7).days
-remainingDays = int((dueDate - currentDate).days) % 7
+due_date = input('When is the deadline for the project (mm/dd/yyyy)? ')
+due_date = datetime.datetime.strptime(due_date, '%m/%d/%Y').date()
+current_date = datetime.date.today()
+remaining_weeks = ((due_date - current_date) / 7).days
+remaining_days = int((due_date - current_date).days) % 7
 
-print(f'\n\nThere are only {remainingWeeks} week/s and {remainingDays} day/s left before the project is due')
+print(f'\n\nThere are only {remaining_weeks} week/s and {remaining_days} day/s left before the project is due')
