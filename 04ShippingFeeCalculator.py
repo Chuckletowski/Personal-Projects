@@ -6,13 +6,13 @@
 # A value < 50
 # A value of exactly 50
 
-limitAmount = 50
-shippingFee = 10
+limit_amount = 50
+shipping_fee = 10
 
-totalAmount = float(input('How much is your total shopping cost? $'))
+total_amount = float(input('How much is your total shopping cost? $'))
 
-if totalAmount < limitAmount:
-    totalAmount += shippingFee
-    print('\n\nYour overall charge is $%.2f, an additional $%d has been charged for shipping fee' %(totalAmount, shippingFee))
+if total_amount < limit_amount:
+    total_amount += shipping_fee
+    print('\n\nYour overall charge is $%.2f, an additional $%d has been charged for shipping fee' %(total_amount, shipping_fee))
 else:
-    print('\n\nYour overall charge is $%.2f with free shipping' %totalAmount)
+    print('\n\nYour overall charge is $%.2f with free shipping' %total_amount)
