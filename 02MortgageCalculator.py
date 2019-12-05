@@ -6,9 +6,9 @@
 # i = interest rate (for an interest rate of 5%, i = 0.05)
 # n = number of payments
 
-loanAmount = float(input('What is your desired loan amount? $'))
-interestRate = float(input('What is the current annual interest rate? %')) * .01 / 12
-numberYears = float(input('How many years do you plan to pay the loan? ')) * 12
-monthlyPayment = (loanAmount * (interestRate * (1 + interestRate) * numberYears)) / ((1 + interestRate) * numberYears - 1)
+loan_amount = float(input('What is your desired loan amount? $'))
+interest_rate = float(input('What is the current annual interest rate? %')) * .01 / 12
+number_of_years = float(input('How many years do you plan to pay the loan? ')) * 12
+monthly_payment = (loan_amount * (interest_rate * (1 + interest_rate) * number_of_years)) / ((1 + interest_rate) * number_of_years - 1)
 
-print('\n\nYour monthly payment would be: $%.2f' %monthlyPayment)
+print('\n\nYour monthly payment would be: $%.2f' %monthly_payment)
