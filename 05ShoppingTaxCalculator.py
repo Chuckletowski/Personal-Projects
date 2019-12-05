@@ -12,10 +12,10 @@ total_amount = float(input('How much is your total order cost? $'))
 country = input('What country are you from? ').upper()
 
 if country == 'CANADA':
-    province = input('Which province are you from? ').upper()
+    province = input('What province are you from? ').upper()
     if province == 'ALBERTA':
         total_amount = (total_amount * gst) + total_amount
-    elif province == 'ONTARIO' or province == 'NEW BRUNSWICK' or province == 'NOVA SCOTIA':
+    elif province in ('ONTARIO', 'NEW BRUNSWICK', 'NOVA SCOTIA'):
         total_amount = (total_amount * hst) + total_amount
     else:
         total_amount = ((total_amount * pst) + (total_amount * gst)) + total_amount
