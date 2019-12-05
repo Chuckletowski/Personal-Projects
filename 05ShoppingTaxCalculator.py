@@ -8,17 +8,17 @@ gst = .0005
 hst = .0013
 pst = .0006
 
-totalAmount = float(input('How much is your total order cost? $'))
+total_amount = float(input('How much is your total order cost? $'))
 country = input('What country are you from? ').upper()
 
 if country == 'CANADA':
     province = input('Which province are you from? ').upper()
     if province == 'ALBERTA':
-        totalAmount = (totalAmount * gst) + totalAmount
+        total_amount = (total_amount * gst) + total_amount
     elif province == 'ONTARIO' or province == 'NEW BRUNSWICK' or province == 'NOVA SCOTIA':
-        totalAmount = (totalAmount * hst) + totalAmount
+        total_amount = (total_amount * hst) + total_amount
     else:
-        totalAmount = ((totalAmount * pst) + (totalAmount * gst)) + totalAmount
-    print('\n\nYour overall charge is $%.2f' %totalAmount)
+        total_amount = ((total_amount * pst) + (total_amount * gst)) + total_amount
+    print('\n\nYour overall charge is $%.2f' %total_amount)
 else:
-    print('\n\nYour overall charge is $%.2f' %totalAmount)
+    print('\n\nYour overall charge is $%.2f' %total_amount)
