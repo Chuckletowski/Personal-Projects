@@ -1,2 +1,2 @@
 # Personal-Projects
-Everyday is a work in progress.
+Collection of exercises and projects using Python.
