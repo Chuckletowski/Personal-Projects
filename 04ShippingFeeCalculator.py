@@ -1,10 +1,10 @@
-#Calculate shipping charges for a shopper. Ask the user to enter the amount for their total purchase.
-#If their total is under $50, add $10. Otherwise, shipping is free.
-#Tell the user their final total including shipping costs and format the number so it looks like a monetary value.
-#Don’t forget to test your solution with:
-#A value > 50
-#A value < 50
-#A value of exactly 50
+# Calculate shipping charges for a shopper. Ask the user to enter the amount for their total purchase.
+# If their total is under $50, add $10. Otherwise, shipping is free.
+# Tell the user their final total including shipping costs and format the number so it looks like a monetary value.
+# Don’t forget to test your solution with:
+# A value > 50
+# A value < 50
+# A value of exactly 50
 
 limitAmount = 50
 shippingFee = 10
