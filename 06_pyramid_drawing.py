@@ -6,6 +6,7 @@ row = int(input('How many rows do you want your pyramid to have? '))
 space = row - 1
 draw = 1
 
+print('\n')
 for r in range(row):
     for s in range(space):
         print(' ', end = '')
