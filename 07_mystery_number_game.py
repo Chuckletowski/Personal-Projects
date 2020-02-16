@@ -1,7 +1,7 @@
-#Write a program that generates a random number between 0-9 and asks you to guess it. You only have three attempts to guess
-#the hidden number. Use a while loop to let the user keep guessing so long as the number of guesses left is greater than zero.
-#Ask the user for their guess number. If they guess it correctly, print 'You win' and break. If not, decrement the number
-#of guesses left by one until there are no more attempts left and print 'You lose'.
+# Write a program that generates a random number between 0-9 and asks you to guess it. You only have three attempts to guess
+# the hidden number. Use a while loop to let the user keep guessing so long as the number of guesses left is greater than zero.
+# Ask the user for their guess number. If they guess it correctly, print 'You win' and break. If not, decrement the number
+# of guesses left by one until there are no more attempts left and print 'You lose'.
 
 from random import randint
 
