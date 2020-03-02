@@ -1,6 +1,6 @@
-# Ask the user to enter the names of everyone invited for the party. Then return a list of the party guests in
-# alphabetical order. This will require pulling together everything we have learned so far, so let’s walk through
-# the thought process of idea to code. Put those values in a list. Sort the list. Print the sorted list.
+# Ask the user to enter the names of everyone invited for the party. Then return a list of the party guests in alphabetical order.
+# This will require pulling together everything we have learned so far, so let’s walk throughthe thought process of idea to code.
+# Put those values in a list. Sort the list. Print the sorted list.
 
 guest_list = []
 invitee = input('Who would you like to invite for the party? ').upper()
