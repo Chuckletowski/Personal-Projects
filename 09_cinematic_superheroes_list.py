@@ -1,0 +1,10 @@
+file = open('MCU_and_DCEU.txt', 'a')
+file.write(input('Is he/she from Marvel or DC? '))
+file.write(',')
+file.write(input('What is his/her superhero name? '))
+file.write(',')
+file.write(input('What is his/her alter ego name? '))
+file.write('\n')
+file.close()
+
+print('\n\nFile updated successfully.')
