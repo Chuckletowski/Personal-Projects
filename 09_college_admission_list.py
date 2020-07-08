@@ -1,5 +1,6 @@
-# Write a program that will create a CSV file for incoming college students. Ask the user to enter the student information needed for the records. Then open the CSV file and print all the entries in the student record.
-# For extra credit, you may use a special function to display the printed list neatly and presentably.
+# Write a program that will create a CSV file for incoming college students. Ask the user to enter the student information needed
+# for the records. Then open the CSV file and print all the entries in the student record. For extra credit, you may use a special function
+# to display the printed list neatly and presentably.
 
 from csv import reader
 
