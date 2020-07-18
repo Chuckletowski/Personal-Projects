@@ -20,6 +20,5 @@ print('\n\nFile updated successfully.\n\n')
 
 with open('college_admission_list.csv', 'r') as record_file:
     record_list = reader(record_file, delimiter = '|')
-    
     for record in record_list:
         print(', '.join(record))
