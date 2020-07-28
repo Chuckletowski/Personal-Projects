@@ -9,7 +9,7 @@ def write_error(error_code, filename):
         file.write(f'{error_code}{error_message}|{report_date}\n')
 
 error_code = input('What is the error code you encountered? ')
-filename = 'error_log_compilation.csv'
+filename = 'error_record.csv'
 
 if error_code == '101':
     error_message = ': Uncommitted Transaction Batch'
@@ -20,7 +20,7 @@ elif error_code == '103':
 elif error_code == '104':
     error_message = ': Option Schema Conflict'
 else:
-    error_message = ': Update needed due to new error code encountered'
+    error_message = ': Record update needed due to new error code encountered'
 
 write_error(error_code, filename)
 
