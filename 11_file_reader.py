@@ -1,5 +1,6 @@
-# Write a code that will open and read a file. Allow the user to specify the filename to be accessed.
-# Add an error handling procedure to provide a suitable error message in a scenario where the file specified by the user could not be found.
+# Write a code that will open and read a CSV file. Allow the user to specify the filename to be accessed.
+# Add an error handling procedure to provide a suitable error message for a scenario where the file specified by the user
+# could not be found or is no longer available.
 
 from csv import reader
 
