@@ -1,4 +1,4 @@
-# Calculate the total to charge for an order from an online store in Canada. Ask user what country they are from and their order total.
+# Calculate the total to charge for an order from an online store in Canada. Ask the user what country they are from and their order total.
 # If the user is from Canada, ask which province. If the order is from outside Canada, do not charge any taxes.
 # If the order was placed in Canada, calculate tax based on the province. Alberta charges .05% General Sales Tax.
 # Ontario, New Brunswick, and Nova Scotia charge .13% Harmonized Sales Tax. All other provinces charge .06% Provincial Sales Tax +
