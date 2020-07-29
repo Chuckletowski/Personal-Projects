@@ -1,5 +1,5 @@
 # Create a function with two parameters. One parameter to hold a string of text. One parameter to hold a filename.
-# Write code in the function that will write the text to a file with the name specified.
+# Write a code in the function that will write the text to a file with the name specified.
 
 from datetime import datetime
 
