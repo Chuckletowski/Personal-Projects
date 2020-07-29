@@ -2,7 +2,7 @@
 # with the following formula: M = L[i(1+i)n] / [(1+i)n-1]
 # Where:
 # M = monthly payment
-# L = Loan amount 
+# L = loan amount 
 # i = interest rate (for an interest rate of 5%, i = 0.05)
 # n = number of payments
 
