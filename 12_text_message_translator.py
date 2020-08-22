@@ -1,6 +1,5 @@
-# Many adults can’t understand text message abbreviations. Your challenge is to write a program
-# that will take a text message and translate it into words your grandparents could understand.
-# For example: So funny LOL ROTFL becomes So funny laughing out loud rolling on the floor laughing.
+# Many adults can’t understand text message abbreviations. Your challenge is to write a program that will take a text message and translate it
+# into words your grandparents could understand. For example: So funny LOL ROTFL becomes So funny laughing out loud rolling on the floor laughing.
 # For this scenario, we will start with a file that lists all the text message abbreviations and the translations.
 # First, we have to break the problem into logical steps:
 # 1. Have the user enter the text message.
