@@ -7,7 +7,6 @@
 gst = .0005
 hst = .0013
 pst = .0006
-
 total_amount = float(input('How much is your total order cost? $'))
 country = input('What country are you from? ').upper()
 
