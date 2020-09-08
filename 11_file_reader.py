@@ -5,7 +5,9 @@
 from csv import reader
 
 print('Please give the CSV file you want to open in this format - \'filename.extension\'')
+
 filename = input('Type it here: ').lower()
+
 print('\n')
 
 try:
