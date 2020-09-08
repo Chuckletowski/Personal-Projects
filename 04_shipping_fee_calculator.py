@@ -8,7 +8,6 @@
 
 limit_amount = 50
 shipping_fee = 10
-
 total_amount = float(input('How much is your total shopping cost? $'))
 
 if total_amount < limit_amount:
