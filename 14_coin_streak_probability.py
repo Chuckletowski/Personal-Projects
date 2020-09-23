@@ -16,7 +16,7 @@ for toss in range(10000):
     outer_list.append(inner_list)
     for side in range(95):
         if inner_list[side] == inner_list[side + 1] == inner_list[side + 2] == inner_list[side + 3] == inner_list[side + 4] == inner_list[side + 5]:
-            streak +=1
+            streak += 1
         else:
             continue
 
